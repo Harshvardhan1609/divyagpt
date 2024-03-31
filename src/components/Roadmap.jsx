@@ -70,7 +70,7 @@ const Roadmap = () => (
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
        
-        <Button href="/roadmap"> <a href="https://a9a8-2409-40d4-1b-3a94-b53b-c855-df42-61df.ngrok-free.app/" target="_blank">Dive into the New Gen Education<a/></Button>
+        <Button href="/roadmap"> Dive into the New Gen Education</Button>
           
       </div>
     </div>
