@@ -1,7 +1,7 @@
 # DIVYAGPT : AI Powered Education
 
 # AI Based Education App
-Hosted on [Your App's Website](https://divyagptindia.netlify.app)
+Hosted on [Your App's Website](https://divyagpt.netlify.app)
 
 ## Project Overview:
 The AI-Based Education App is designed to facilitate seamless note-taking and content generation during educational sessions. Using advanced natural language processing (NLP) and machine learning (ML) algorithms, the app transcribes voice commands from instructors and teachers into comprehensive notes, summaries, glossaries, mindmaps, and flowcharts. These notes are then automatically organized and emailed to participants after the class.
@@ -21,7 +21,7 @@ The AI-Based Education App is designed to facilitate seamless note-taking and co
 - **Machine Learning (ML):** Employs ML algorithms for content generation, including summarization, glossary creation, and visual representation.
 - **Speech-to-Text Conversion:** Integrates speech-to-text technology for accurate transcription of spoken content.
 - **Email Automation:** Implements email automation functionality to automatically send out generated notes to participants.
-- **Hosting:** Hosted on [Your App's Website](https://divyagptindia.netlify.app) for easy access and distribution.
+- **Hosting:** Hosted on [Your App's Website](https://divyagpt.netlify.app) for easy access and distribution.
 
 ## Future Enhancements:
 - **Enhanced Language Support:** Expand language support to cater to a wider audience.
