@@ -218,9 +218,20 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Beta Version",
+    title: "V X",
     description: "AI chatbot, personalized recommendations",
     price: "0",
+    features: [
+      "Pdf Generation",
+      "Flowchart and Flashcard Generations.",
+      "Seamless Integration and Extensions to boost productivtiy.",
+    ],
+  },
+  {
+    id: "1",
+    title: "V Xi",
+    description: "AI chatbot advanced",
+    price: "15",
     features: [
       "AI Voice to notes conversion with Image generation",
       "Pdf Generation",
