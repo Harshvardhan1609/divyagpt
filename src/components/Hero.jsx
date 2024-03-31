@@ -39,7 +39,7 @@ const Hero = () => {
             Unleash the power of AI within DivyaGPT. India&rsquo;s Own GPT Based tools for boosting Productivity.
           </p>
           <Button href="/pricing" white>
-            <a href="https://ec42-2409-40d4-158-d51d-3647-1bcb-9c03-fdc8.ngrok-free.app/">Get started</a>
+            <a href="https://a9a8-2409-40d4-1b-3a94-b53b-c855-df42-61df.ngrok-free.app/">Get started</a>
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
