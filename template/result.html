@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divya GPT</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        overflow: hidden; /* Lock background */
+    }
+    #video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+        padding: 20px;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 600px; /* Set maximum width */
+        overflow-y: auto; /* Add vertical scrollbar when content exceeds viewport height */
+        max-height: 80%; /* Limit the height of content to 80% of viewport height */
+    }
+    h1 {
+        color: #fff;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    p {
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 20px;
+        display: block; /* Display paragraphs as block elements */
+        padding: 10px 20px;
+        border-radius: 30px; /* Round shape */
+        background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Individual border */
+    }
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 0 5px; /* Adjust spacing */
+        transition: background-color 0.3s ease;
+    }
+    .button:hover {
+        background-color: #ddd;
+    }
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 14px;
+        }
+        .content {
+            padding: 10px;
+        }
+    }
+    .content::-webkit-scrollbar {
+        display: none;
+    }
+
+</style>
+</head>
+<body>
+<video autoplay muted loop id="video-background">
+    <source src="/static/background.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+<div class="content">
+    <h1>Divya-GPT</h1>
+    <p>{{title}}</p>
+    <p>{{summary}}</p>
+    <p>{{overview}}</p>
+    <p>{{qna}}</p> <!-- Moved glossary to the bottom -->
+    <div class="image-container">
+        <a href="{{img}}" target="_blank"><img src="{{img}}" alt="Example Image"></a>
+        <a href="{{pdf}}" class="button" download>Download PDF</a>
+        <a href="{{img}}" class="button" target="_blank">Open Image in New Tab</a>
+    </div>
+    <p>Note: Click on the image for a clearer representation</p>
+</div>
+</body>
+</html>
