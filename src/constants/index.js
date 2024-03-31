@@ -229,7 +229,7 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "V Xi",
+    title: "V XI",
     description: "AI chatbot advanced",
     price: "15",
     features: [
